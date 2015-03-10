@@ -83,21 +83,23 @@
 
 {%- block content %}
 {{ navBar() }}
-<div class="panel">
-    <div class="container">
-      <div class="row">
-        {%- block sidebar1 %}{{ bsidebar() }}{% endblock %}
-        <div class="{{ bs_span_prefix }}{{ bs_content_width }}">
-          {% block body %}{% endblock %}
+<div class="col-md-12">
+    <div class="col-md-12 panel">
+        <div class="container">
+          <div class="row">
+            {%- block sidebar1 %}{{ bsidebar() }}{% endblock %}
+            <div class="{{ bs_span_prefix }}{{ bs_content_width }}">
+              {% block body %}{% endblock %}
+            </div>
+            {% block sidebar2 %} {# possible location for sidebar #} {% endblock %}
+          </div>
         </div>
-        {% block sidebar2 %} {# possible location for sidebar #} {% endblock %}
-      </div>
     </div>
 </div>
 {%- endblock %}
 
 {%- block footer %}
-<footer id="footer-bottom" role="contentinfo">
+<footer id="footer-bottom" role="contentinfo" class="footer">
     <div class="footer-bottom-inner inner">
       <div class="container">
         <p class="pull-right">
