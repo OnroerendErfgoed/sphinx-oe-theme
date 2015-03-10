@@ -1,8 +1,8 @@
-"""Sphinx Bootstrap Theme package."""
+"""Sphinx OE Theme package."""
 import os
 from setuptools import setup, find_packages
 
-from sphinx_bootstrap_theme import __version__
+from sphinx_oe_theme import __version__
 
 ###############################################################################
 # Environment and Packages.
@@ -11,7 +11,7 @@ from sphinx_bootstrap_theme import __version__
 os.environ['COPYFILE_DISABLE'] = "true"
 
 # Packages.
-MOD_NAME = "sphinx_bootstrap_theme"
+MOD_NAME = "sphinx_oe_theme"
 PKGS = [x for x in find_packages() if x.split('.')[0] == MOD_NAME]
 
 
@@ -35,10 +35,10 @@ def read_file(name):
 # Setup.
 ###############################################################################
 setup(
-    name="sphinx-bootstrap-theme",
+    name="sphinx-oe-theme",
     version=__version__,
     use_2to3=True,
-    description="Sphinx Bootstrap Theme.",
+    description="Sphinx OE Theme.",
     long_description=read_file("README"),
     url="http://ryan-roemer.github.com/sphinx-bootstrap-theme/README.html",
 

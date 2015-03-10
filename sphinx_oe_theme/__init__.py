@@ -1,4 +1,4 @@
-"""Sphinx bootstrap theme."""
+"""Sphinx oe theme."""
 import os
 
 VERSION = (0, 4, 5)

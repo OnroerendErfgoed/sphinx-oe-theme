@@ -10,7 +10,7 @@ from contextlib import contextmanager
 from fabric.api import local, lcd, abort
 from fabric.decorators import task
 
-from sphinx_bootstrap_theme import __version__
+from sphinx_oe_theme import __version__
 
 
 DL_DIR = "demo/source/_static/downloads"
@@ -19,7 +19,7 @@ BUILD_DIRS = (
     "dist",
     "build",
     "demo/build",
-    "sphinx_bootstrap_theme.egg-info",
+    "sphinx_oe_theme.egg-info",
 )
 
 SDIST_RST_FILES = (
@@ -128,7 +128,7 @@ def zip_bundle(tag=True):
     local("mkdir -p build")
 
     print("Bundling new files.")
-    with lcd("sphinx_bootstrap_theme/bootstrap"):
+    with lcd("sphinx_oe_theme/bootstrap"):
         local("zip -r ../../build/bootstrap.zip .")
 
     dest = os.path.abspath(os.path.join(DL_DIR, rev))

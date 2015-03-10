@@ -7,7 +7,7 @@ clean:
 	rm -rf "dist" \
 		"build" \
 		"demo/build" \
-		"sphinx_bootstrap_theme.egg-info" \
+		"sphinx_oe_theme.egg-info" \
 
 demo:
 	cd demo && make html
