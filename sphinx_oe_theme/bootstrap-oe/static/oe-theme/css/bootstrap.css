@@ -3367,8 +3367,8 @@ address {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../oe-theme/fonts/glyphicons-halflings-regular.eot');
-  src: url('../oe-theme/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../oe-theme/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../oe-theme/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../oe-theme/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../oe-theme/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -4619,6 +4619,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-bottom-color: #f5f5f5;
   }
 }
+
+.customtoc > ul > li > a {
+    font-size: 16px !important;
+    padding-left: 20px !important;
+}
+
 .tab-content > .tab-pane {
   display: none;
 }
