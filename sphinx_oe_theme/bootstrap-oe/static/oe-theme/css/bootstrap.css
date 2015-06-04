@@ -997,7 +997,7 @@ pre code {
     right: 8.33333333%;
   }
   .col-sm-pull-0 {
-    right: 0%;
+    right: 0;
   }
   .col-sm-push-12 {
     left: 100%;
@@ -2362,10 +2362,14 @@ input[type="button"].btn-block {
   z-index: 40;
   padding: 0 25px 0 13px;
 }
+
+.logo-block .logo-block-title { width: 165px; height: 135px; float: left; }
+
+
 .logo-block h1 {
   /*padding-top:45px;*/
   padding-top: 30px;
-  font-size: 21px;
+  font-size: 36px;
   color: #753f7f;
   float: left;
 }
@@ -2491,7 +2495,7 @@ footer#footer-bottom .inner nav ul li a {
   font-size: 0.875em;
 }
 footer#footer-bottom .inner nav ul li a:hover {
-  color: $black;
+  color: black;
 }
 footer#footer-bottom .inner nav ul li a.active {
   color: #753f7f;
@@ -2562,8 +2566,8 @@ footer#footer-bottom .inner nav ul.lang-switch li {
   margin-bottom: 22px;
   background-color: #ffffff;
   border: 0px solid #fff;
-  border-radius: 0 !import;
-  /*.box-shadow(0 1px 1px rgba(0,0,0,.05));*/
+  border-radius: 0 !important;
+  .box-shadow(0 1px 1px rgba(0,0,0,.05));
 }
 .panel-body {
   padding: 15px;

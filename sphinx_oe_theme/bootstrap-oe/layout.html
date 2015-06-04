@@ -1,6 +1,6 @@
 {% extends "basic/layout.html" %}
 
-{% set custom_css_files = [ '_static/oe-theme/css/bootstrap.css' ] %}
+{% set custom_css_files = [ '_static/oe-theme/css/bootstrap.min.css', '_static/oe-theme/css/bootstrap.css'] %}
 {% set theme_css_files = [] %}
 {% set bootstrap_version, bootstrap_additional_css, navbar_version = "3.2.0", "theme", "" %}
 {% set bs_span_prefix = "col-md-" %}
@@ -16,6 +16,7 @@
 {% set script_files = script_files + [
     '_static/js/jquery-1.11.0.min.js',
     '_static/js/jquery-fix.js',
+    '_static/oe-theme/js/oe-theme.js',
     '_static/bootstrap-' + bootstrap_version + '/js/bootstrap.min.js',
     '_static/bootstrap-sphinx.js'
   ]
