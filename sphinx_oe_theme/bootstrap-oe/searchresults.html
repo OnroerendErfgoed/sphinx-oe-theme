@@ -7,22 +7,24 @@
     :copyright: Copyright 2007-2011 by the Sphinx team, see AUTHORS.
     :license: BSD, see LICENSE for details.
 #}
-<h1 id="search-documentation">Search</h1>
+<h1 id="search-documentation">Zoeken</h1>
 <p>
-  From here you can search these documents. Enter your search
-  words into the box below and click "search".
+  Van hieruit kan u zoeken in deze documenten. Vul u zoekterm in in onderstaand
+  zoekveld en druk 'Zoeken'. Let er op dat de zoekfunctionaliteit automatisch
+  zoekt naar al de opgegeven woorden. Pagina's waar er minder woorden gevonden worden
+  zullen niet worden weergegeven.
 </p>
 
 <form class="form-search" action="" method="get">
   <input type="text" name="q" class="input-medium search-query">
-  <button type="submit" class="btn">{{ _('search') }}</button>
+  <button type="submit" class="btn btn-primary" style="font-size:11px">{{ _('Zoeken') }}</button>
   <span id="search-progress" style="padding-left: 10px"></span>
 </form>
 
 {%- if search_performed %}
-  <h2>Search Results</h2>
+  <h2>Zoekresultaten</h2>
   {%- if not search_results %}
-  <p>Your search did not match any results.</p>
+  <p>Sorry, er werden geen documenten gevonden die beantwoorden aan uw zoektermen. Kijk aub na of u niets fout gespeld heeft.</p>
   {%- endif %}
 {%- endif %}
 <div id="search-results">

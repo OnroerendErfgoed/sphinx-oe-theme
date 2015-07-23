@@ -32,8 +32,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Demo'
-copyright = u'2011-2014, Ryan Roemer'
+project = u'Documenten'
+copyright = u'2015-2016, Onroerend Erfgoed'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -129,7 +129,7 @@ html_static_path = ["_static"]
 
 # Custom sidebar templates, maps document names to template names.
 #html_sidebars = {}
-html_sidebars = {'**': ['customtoc.html', 'localtoc.html', 'sourcelink.html', 'searchbox.html']}
+html_sidebars = {'**': ['searchbox.html', 'customtoc.html', 'localtoc.html', 'sourcelink.html']}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.

@@ -8,7 +8,7 @@
     :license: BSD, see LICENSE for details.
 #}
 {%- extends "layout.html" %}
-{% set title = _('Search') %}
+{% set title = _('Zoeken') %}
 {% set script_files = script_files + ['_static/searchtools.js'] %}
 {% block extrahead %}
   <script type="text/javascript">
@@ -20,19 +20,18 @@
   {{ super() }}
 {% endblock %}
 {% block body %}
-  <h1 id="search-documentation">{{ _('Search') }}</h1>
+  <h1 id="search-documentation">{{ _('Zoeken') }}</h1>
   <div id="fallback" class="admonition warning">
   <script type="text/javascript">$('#fallback').hide();</script>
   <p>
-    {% trans %}Please activate JavaScript to enable the search
-    functionality.{% endtrans %}
+    {% trans %}Om gebruik te maken van deze zoekfunctionaliteit moet u over een moderne browser beschikken die javascript ondersteunt.{% endtrans %}
   </p>
   </div>
   <p>
-    {% trans %}From here you can search these documents. Enter your search
-    words into the box below and click "search". Note that the search
-    function will automatically search for all of the words. Pages
-    containing fewer words won't appear in the result list.{% endtrans %}
+    {% trans %}Van hieruit kan u zoeken in deze documenten. Vul uw zoekterm in in onderstaand
+    zoekveld en druk 'Zoeken'. Let er op dat de zoekfunctionaliteit automatisch
+    zoekt naar al de opgegeven woorden. Pagina's waar er minder woorden gevonden worden
+    zullen niet worden weergegeven.{% endtrans %}
   </p>
 
   {% if theme_bootstrap_version == "3" %}
@@ -40,21 +39,21 @@
     <div class="form-group">
       <input type="text" class="form-control" name="q" value="" />
     </div>
-    <input type="submit" class="btn btn-default" value="{{ _('search') }}" />
+    <input type="submit" class="btn btn-primary" style="font-size:11px" value="{{ _('Zoeken') }}" />
     <span id="search-progress" style="padding-left: 10px"></span>
   </form>  
   {% else %}
   <form class="form-search">
     <input type="text" class="input-medium search-query" name="q" value="" />
-    <input type="submit" class="btn btn-default" value="{{ _('search') }}" />
+    <input type="submit" class="btn btn-primary" style="font-size:11px" value="{{ _('Zoeken') }}" />
     <span id="search-progress" style="padding-left: 10px"></span>
   </form>
   {% endif %}
   
   {% if search_performed %}
-    <h2>{{ _('Search Results') }}</h2>
+    <h2>{{ _('Zoekresultaten') }}</h2>
     {% if not search_results %}
-      <p>{{ _('Your search did not match any documents. Please make sure that all words are spelled correctly and that you\'ve selected enough categories.') }}</p>
+      <p>{{ _('Sorry, er werden geen documenten gevonden die beantwoorden aan uw zoektermen. Kijk aub na of u niets fout gespeld heeft.') }}</p>
     {% endif %}
   {% endif %}
   <div id="search-results">

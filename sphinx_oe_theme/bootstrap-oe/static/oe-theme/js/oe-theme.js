@@ -1,7 +1,7 @@
 
 // Function that resizes the title to a appropriate size
 $( document ).ready(function () {
-  var element = $('.logo-block');
+  var element = $('.logo-block2');
   resize_title(element);
 });
 
