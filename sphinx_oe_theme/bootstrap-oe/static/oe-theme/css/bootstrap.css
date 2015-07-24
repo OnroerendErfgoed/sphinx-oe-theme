@@ -6047,14 +6047,15 @@ ul.customtoc li:before {
   position: absolute;
   left: 0em;
 }
-ul.customtoc li a:link {
-  color: #2da3ce;
+ul.customtoc li a:link, ul.customtoc li a:visited {
+  color: #944ea1;
   margin-bottom: 8px;
   text-decoration: underline;
   font-size: 14px;
 }
 ul.customtoc li a:hover {
   text-decoration: none;
+  color: #572e5f;
 }
 ul.customtoc ul {
   list-style: none;
