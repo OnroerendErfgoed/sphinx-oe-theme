@@ -35,12 +35,12 @@ audio:not([controls]) {
   height: 0;
 }
 
-.pageContainer { min-height: 100%; margin: 0 auto -68px; }
-@media (max-width: 769px) {
-  .pageContainer { min-height: 100%; height: auto; margin: 0 auto -68px; }
-}
+.pageContainer { min-height: 100%; margin: 0 auto -112px; }
+/*@media (max-width: 769px) {*/
+  /*.pageContainer { min-height: 100%; height: auto; margin: 0 auto -112px; }*/
+/*}*/
 #footerContainer { height: 68px; }
-.push { height: 68px; }
+.push { height: 112px; }
 
 [hidden],
 template {
