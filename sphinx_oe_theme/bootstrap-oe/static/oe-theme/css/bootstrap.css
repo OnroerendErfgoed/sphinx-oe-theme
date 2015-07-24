@@ -6067,9 +6067,8 @@ ul.customtoc ul {
 .wrapper {
   background: #ffffff;
 }
-.logo-block-title {
-  min-width: 200px;
-}
+
+.logo-block-title { width: 165px; height: 80px; float: left; }
 
 .logo-block,
 .logo-block2 {
