@@ -12,5 +12,5 @@ Licenses
 ========
 Sphinx OE Theme is licensed under the MIT_ license.
 
-.. _`MIT`: https://github.com/ryan-roemer/sphinx-bootstrap-theme/blob/master/LICENSE.txt
+.. _`MIT`: https://github.com/OnroerendErfgoed/sphinx-oe-theme/blob/master/LICENSE.txt
 
