@@ -6076,6 +6076,7 @@ ul.customtoc ul {
   width: 410px;
   min-width: 410px;
   background: url(../images/pyoes/header-logo-bg.png) no-repeat;
+  background: url(../images/pyoes/header-logo-bg.png) no-repeat, url(../../oe-theme/images/pyoes/header-logo-bg.png) no-repeat;
   height: 135px;
   position: relative;
   z-index: 40;
@@ -6110,6 +6111,7 @@ ul.customtoc ul {
 }
 .bgimage {
   background: url(../images/pyoes/header-img.jpg);
+  background: url(../images/pyoes/header-img.jpg), url(../../oe-theme/images/pyoes/header-img.jpg);
   width: 960px;
   height: 135px;
   position: absolute;
