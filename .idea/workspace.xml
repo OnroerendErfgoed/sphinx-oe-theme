@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9114684-d628-462f-8e4e-2781e749bdb6" name="Default" comment="img in header">
+    <list default="true" id="c9114684-d628-462f-8e4e-2781e749bdb6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sphinx-oe-theme.iws" />
@@ -409,7 +409,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438091284690</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".idea doesnt want to be removed..">
+      <created>1438091338749</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1438091338749</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -447,7 +453,8 @@
     <MESSAGE value="img in header" />
     <MESSAGE value="remove .idea" />
     <MESSAGE value="remove .idea 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove .idea 2" />
+    <MESSAGE value=".idea doesnt want to be removed.." />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea doesnt want to be removed.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
