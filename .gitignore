@@ -7,5 +7,4 @@ dist
 demo/build/*
 node_modules
 __pycache__
-.idea/*
-.idea
+.idea/
