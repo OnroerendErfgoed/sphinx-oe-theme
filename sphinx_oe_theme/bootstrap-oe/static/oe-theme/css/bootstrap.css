@@ -6196,8 +6196,8 @@ nav#main-navigation .main-navigation-inner {
 }
 /*header color / less height*/
 .bgimage-documenten {
-  background: url(../images/header-documenten-img.jpg) no-repeat !important;
-  background: url(../images/header-documenten-img.jpg) no-repeat !important, url(../../oe-theme/images/header-documenten-img.jpg) no-repeat, #753f7f;
+  background: url(../images/header-documenten-img.png) no-repeat !important;
+  background: url(../images/header-documenten-img.png) no-repeat !important, url(../../oe-theme/images/header-documenten-img.png) no-repeat, #753f7f;
   width: 70%;
   height: 80px;
   position: absolute;
