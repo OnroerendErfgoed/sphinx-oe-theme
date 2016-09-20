@@ -1,3 +1,6 @@
+THIS PROJECT IS NO LONGER MAINTAINED, WE WILL ONLY SUPPORT THE OE-SPHINX-THEME (based on foundation)
+
+
 ================
  Sphinx OE Theme
 ================
@@ -13,4 +16,6 @@ Licenses
 Sphinx OE Theme is licensed under the MIT_ license.
 
 .. _`MIT`: https://github.com/OnroerendErfgoed/sphinx-oe-theme/blob/master/LICENSE.txt
+
+
 
